@@ -108,15 +108,3 @@ Content-Type: application/json
   "password": "1234"
 }
 ```
-
----
-
-## Comentario técnico
-
-El uso de JPA permitió separar completamente el modelo de datos del modelo de persistencia, facilitando así el mantenimiento y la evolución del sistema. Además, se emplearon buenas prácticas como:
-
-- Uso de anotaciones para el mapeo.
-- Singleton para el `EntityManagerFactory`.
-- Separación de capas (modelo, servicios, configuración).
-
----
